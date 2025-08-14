@@ -1,20 +1,34 @@
 # Project Information
 
-**SafeWorkPay**
+SafeWorkPay is a freelancing platform for **IT projects and coding tasks**. It uses special technology to make sure clients and freelancers have a secure and **fair experience**.
 
-A decentralized freelancing platform powered by blockchain and AI to ensure secure, transparent, and fair transactions between clients and freelancers.
+Here's how it works:
+
+- **Blockchain** handles all payments, so transactions are transparent and secure.
+- In Case of **Dispute** **AI** checks the code submitted by freelancers and check the **completion percentage** of the project.
+- This approach helps avoid the common problems with other platforms, like **high fees, payment delays, biased and manual dispute resolution**.
 
 ---
 
 ## Submission Information
 
-Submitted to the Hedera Hello Future: Origins Hackathon 2025
-
-<!-- make a biullet list -->
-
-- Hackathon submission:https://dorahacks.io/buidl/30774
-- Live link:https://safe-work-pay-v3.vercel.app/
+- Live Link https://safe-work-pay-v3-2.vercel.app/
 - Presentation video: https://youtu.be/5vzjYtTKsVs
+
+---
+
+## 📜 Deployment Notes
+
+#### Core Testnet
+
+The smart contracts are already deployed on the **Core Testnet** at the following addresses:
+
+| Contract Name | Address                                                                                                                            |
+| ------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| **DappWorks** | [`0xf2011cfe8e379a4a890a7f1a5cdcc61629a2fa6b`](https://scan.test2.btcs.network/address/0xf2011cfe8e379a4a890a7f1a5cdcc61629a2fa6b) |
+| **USDT**      | [`0x7BBfC9Ea272595D794990A8C2ea615d95ECe3673`](https://scan.test2.btcs.network/address/0x7BBfC9Ea272595D794990A8C2ea615d95ECe3673) |
+
+🔗 _You can visit the [Core Testnet Explorer](https://scan.test2.btcs.network) to check the transactions._
 
 ---
 
@@ -33,17 +47,37 @@ Submitted to the Hedera Hello Future: Origins Hackathon 2025
 - **SafeWorkPay** is a **decentralized freelancing platform** powered by **blockchain and AI**.
 - Clients deposit funds into a **smart contract**, which **holds the money in escrow**.
 - **Funds are released** only when **full projects are completed and verified**.
-- An **AI model evaluates the submitted code** against project requirements.
+- In case of **Dispute** **AI** checks the code submitted by freelancers and check the **completion percentage** of the project.
 - The AI helps in **resolving disputes** fairly by **releasing funds proportionally** (e.g., 50% work = 50% payment).
-- Combines the strengths of **blockchain’s trust** and **AI’s analysis**, unlike traditional platforms like Upwork or basic blockchain-based platforms like Ethlance.
+- SafeWorkPay is better than other platforms because it combines two powerful technologies:
+
+  - **Blockchain's trust:** This makes payments secure and transparent.
+  - **AI's analysis:** This checks the quality of the code automatically.
+
+This makes it more reliable than traditional platforms like **Upwork** or simpler blockchain-based platforms like **Ethlance**, which don't have this combination of features.
 
 ---
 
-## Project Description
+## How SafeWorkPay Works
 
-- Clients can **post projects** and **deposit funds** into smart contracts.
-- Developers **bid** on projects and **submit full projects** as they complete work.
-- If a dispute arises, an **AI Agent** checks the **completeness of code** based on requirements and completion percentage; funds are released to the developer and remaining to the client.
+1.  **Project Posting:** A client posts a project with a title, description, keywords, and a budget range.
+2.  **Bidding:** Freelancers submit bids that fit within the client's budget.
+3.  **Hiring:** The client accepts a bid, and the agreed-upon payment is locked in a secure smart contract.
+4.  **Work Submission:** The freelancer finishes the project and provides a link to the completed code on GitHub.
+5.  **Review and Payment:**
+    - **If the client approves the work,** the full payment is instantly released to the freelancer.
+    - **If the client doesn't approve,** either party can start a dispute.
+6.  **Dispute Resolution:** An AI system analyzes the project's details and the submitted code to determine the percentage of completion. Based on this analysis, the funds are split fairly between the client and the freelancer.
+
+---
+
+## Key Advantages
+
+- **Low Fees:** Transaction fees are very low, regardless of the project's size.
+- **Fast Payments:** Payments are instant and work across different countries without the delays or currency issues of traditional banks.
+- **Quick Disputes:** An AI-powered system resolves disputes 24/7, offering a fast, accurate, and unbiased solution.
+- **No Middlemen:** Smart contracts handle payments directly, making the process transparent and immediate.
+- **Specialized and Accurate:** Because the platform focuses only on IT projects, the AI can analyze code to resolve disputes with high accuracy.
 
 ## 📸 Screenshots
 
@@ -166,11 +200,6 @@ To run the SafeWorkPay frontend, follow these steps:
    pnpm start
    ```
 
-**Note**: The smart contracts are already deployed on the Hedera testnet at the following addresses:
-
-- DappWorks: `0x8961AeA9D0118BD1f6E0837CAa8759835A7b51A8`
-- USDT: `0x30c7e88C3A04C6bb59d2C604A0c135447dBA4099`
-
 **Environment Setup**: Make sure to add your MetaMask private key, CometChat credentials, and RPC URL in the `.env` file for the application to function correctly.
 
 #### add the environment variables in the .env file
@@ -224,14 +253,14 @@ change file name .env.example to .env and add the environment variables in the .
 - **Backend (Smart Contracts)**: Solidity, Hardhat, OpenZeppelin Contracts, Node.js, Express.js, @google/generative-ai
 - **Chat Functionality**: CometChat
 - **Package Manager**: pnpm
-- **Blockchain**: Hedera (Testnet)
+- **Blockchain**: Core Testnet
 - **AI**: Custom AI model for code evaluation and dispute resolution (integrated with Gemini API)
 
 ## Additional Notes
 
 - **Security**: The platform uses blockchain for secure escrow and transparent transactions.
-- **User Authentication**: Users must connect their MetaMask wallets to interact with the platform.
-- **Chat**: Real-time messaging between clients and freelancers is facilitated via CometChat.
+- **User Authentication**: Users must connect their **MetaMask** wallets to interact with the platform.
+- **Chat**: Real-time messaging between clients and freelancers is facilitated via **CometChat**.
 - **Dispute Resolution**: A unique feature where AI aids in fair resolution, ensuring partial payments for partial work.
 
 For any issues or contributions, please open an issue or pull request on this repository. We welcome feedback to improve SafeWorkPay!
