@@ -1,6 +1,6 @@
 # Project Information
 
-SafeWorkPay is a freelancing platform for **IT projects and coding tasks**. It uses special technology to make sure clients and freelancers have a secure and **fair experience**.
+SafeWorkPay is a freelancing platform for **IT projects and coding tasks**. It uses **Blockchain** and **AI** technology to make sure clients and freelancers have a **secure and fair experience**.
 
 Here's how it works:
 
@@ -38,7 +38,7 @@ The smart contracts are already deployed on the **Core Testnet** at the followin
 - Clients may **withhold funds** even when work is completed.
 - Developers may **fail to deliver** after receiving payment.
 - These issues **discourage honest participation** and reduce efficiency.
-- There’s a **need for a secure, transparent, and fair system** to build trust between clients and freelancers.
+- There’s a **need for a secure, transparent, and fair system** to build trust between **clients** and **freelancers**.
 
 ---
 
@@ -46,9 +46,9 @@ The smart contracts are already deployed on the **Core Testnet** at the followin
 
 - **SafeWorkPay** is a **decentralized freelancing platform** powered by **blockchain and AI**.
 - Clients deposit funds into a **smart contract**, which **holds the money in escrow**.
-- **Funds are released** only when **full projects are completed and verified**.
+- **Funds are released** only when full projects are **completed and verified**.
 - In case of **Dispute** **AI** checks the code submitted by freelancers and check the **completion percentage** of the project.
-- The AI helps in **resolving disputes** fairly by **releasing funds proportionally** (e.g., 50% work = 50% payment).
+- The AI helps in **resolving disputes** fairly by releasing funds **proportionally** (e.g., 50% work = 50% payment).
 - SafeWorkPay is better than other platforms because it combines two powerful technologies:
 
   - **Blockchain's trust:** This makes payments secure and transparent.
