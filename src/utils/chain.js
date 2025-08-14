@@ -72,6 +72,19 @@ export const NETWORKS = {
     rpcUrls: ["https://rpc-quicknode-holesky.morphl2.io"],
     blockExplorerUrls: ["https://explorer-holesky.morphl2.io/"],
   },
+  // add core testnet2 
+  CORE_TESTNET2: {
+    chainId: "0x44a",
+    chainIdDecimal: 1114,
+    chainName: "Core Testnet2",
+    nativeCurrency: {
+      name: "tCore2",
+      symbol: "tCORE2",
+      decimals: 18,
+    },
+    rpcUrls: ["https://rpc.test2.btcs.network"],
+    blockExplorerUrls: ["https://scan.test2.btcs.network"],
+  },
 };
 
 /**
