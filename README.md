@@ -14,6 +14,8 @@ Here's how it works:
 
 - Live Link https://safe-work-pay-v3-2.vercel.app/
 - Presentation video: https://youtu.be/5vzjYtTKsVs
+- Submitted to other hackathons Hedera Origin 2025 Hack https://github.com/rahul-rathore786/safe-work-pay-v3-final
+- But the entire project was built during the core connect buildthon timeline.
 
 ---
 
